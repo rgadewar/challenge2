@@ -26,20 +26,16 @@ h1 {
 }
 
 .header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px 0px;
     background-color: var(--dark);
     color:var(--light);
     align-items: center;
     margin-top: 20px;
-    height: 150px;
+    /* height: 500px; */
+    
 }
 header{
-/* #headerSection{ */
   background-color: var(--dark);
-  /* display: flex;
-  align-content: center; */
-  
 }
 
 .header h1 {
@@ -50,15 +46,15 @@ header{
     background: rgb(143, 227, 227);
 }
 
-.header div {
+.header section {
     float: right;
 }
 
-.header div ul {
+.header section ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header section ul li {
     display: inline-block;
     margin-left: 25px;
     border-bottom: 2px solid rgba(149, 235, 235, 0.584);
@@ -104,11 +100,11 @@ main {
   justify-content: space-around;
 }
 
-section {
-  /* flex: 0 0 150px; */
-  background-color:var(--light);
+/* section {
+  flex: 0 0 100%;
+  /* background-color:var(--light); */
   /* padding: 20px; */
-} 
+/* }   */ 
 
 img {
   width: 100%;

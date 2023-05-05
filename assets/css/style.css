@@ -1,20 +1,20 @@
 :root {
   /* declare a variable with `--` syntax */
-  --dark: #2a607c;
+  --dark: #13293d;;
   --light: #fff;
-  --navlink-color: #b9c6ae;
+  /* --navlink-color: #b9c6ae; */
 }
 
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-size: 25px;
+    font-family: Serriff;
 }
 
 body {
     background-color: var(--light);
-    font-size: 25px;
-    font-family: Serriff;
     display: flex;
     flex-direction: column;
     line-height: 1.3;
@@ -26,19 +26,25 @@ h1 {
 }
 
 .header {
-    padding: 0px;
+    padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: var(--dark);
-    color:var(--light)fff;
+    color:var(--light);
     align-items: center;
+    margin-top: 20px;
+    height: 150px;
 }
-#header{
+header{
+/* #headerSection{ */
   background-color: var(--dark);
+  /* display: flex;
+  align-content: center; */
+  
 }
 
 .header h1 {
     display: inline-block;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     font-size: 48px;
     color:black;
     background: rgb(143, 227, 227);
@@ -46,8 +52,6 @@ h1 {
 
 .header div {
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
 }
 
 .header div ul {
@@ -61,7 +65,7 @@ h1 {
 }
 
 a {
-    color: teal;
+    color: var(--light);
     text-decoration: none;
 }
 
@@ -70,8 +74,8 @@ p {
     justify-content: left;
 }
 
-.hero {
-    height: 300px;
+.logo {
+    height: 200px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting1.jpg");
@@ -84,7 +88,7 @@ p {
   margin-left: 5%;
   display: grid; 
   grid-template-columns: 0.2fr 1fr; 
-  row-gap: 15px; 
+  row-gap: 10px; 
 }
 
 .float-child {
@@ -101,26 +105,25 @@ main {
 }
 
 section {
-  flex: 0 0 250px;
+  /* flex: 0 0 150px; */
   background-color:var(--light);
-  padding: 20px;
-}
+  /* padding: 20px; */
+} 
 
 img {
   width: 100%;
+  height:250px
 }
   
-#about-me, #contact-me, #work {
-  text-align: right;
-  justify-content: right;
-  padding-right: 10px;
+.float-child-left{
   border-top-style: none;
   border-bottom-style: none;
   border-left-style: none;
-  border-right:none;
+  text-align: right;
+  margin-right: 10px;
 }
 
-#w70-container {
+.float-child{
   width: 100%;
   border-top-style: none;
   border-bottom-style: none;
@@ -129,7 +132,7 @@ img {
   
 }
 
-#w70-container img{
+.float-child img{
   border: 1px solid teal; 
 }
 
@@ -138,27 +141,13 @@ img {
   height: 300px
  }
 
-#footerlinks { margin: 0; padding: 0;
-  width: auto; } 
-#footerlinks li { text-align: center; display: inline-block; }
-
 .float-container li {
-    padding-top: 0;
-    margin-right: 20px;
-    float: left;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;   
-}
-
-.parent {
-  border: 1px solid black;
-  text-align: center;
-}
-.child {
+  margin-right: 20px;
+  /* float: left;  */
+  list-style-type: none;
+  /* display: flex; */
   display: inline-block;
-  padding: 0;
-  vertical-align: middle;
+  justify-content: space-between;  
 }
 
 .grid-container-element { 
@@ -169,10 +158,24 @@ img {
 } 
 .grid-child-element { 
   margin: 1px; 
-  border: 1px solid teal; 
+  border: 0.5px solid teal; 
 }
 
-.footerlinks a {
+.contactlinks a {
   text-decoration: underline;
   text-underline-offset: 6px;
+  color: var(--dark);
+}
+
+.contactlinks{
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  background-color: var(--dark);
+  color: var(--light);
 }

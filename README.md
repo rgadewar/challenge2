@@ -10,7 +10,7 @@ In this section, I have applied all the concepts of HTML and CSS, particularly f
     - [HTML Reference](#html-reference)
 - [How To Contribute](#how-to-contribute)
 ## Website Preview
-[Horiseon Website Link](https://rgadewar.github.io/challenge1/)
+[Horiseon Website Link](https://rgadewar.github.io/challenge2/)
 
 ![alt](assets/images/Website.png)
 ## Mobile Website Preview

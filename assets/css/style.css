@@ -8,19 +8,11 @@
 }
 
 * {
-<<<<<<< Updated upstream
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-size: 2.55px;
-    font-family: Serriff;
-=======
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   font-size: 25px;
   font-family: Serriff;
->>>>>>> Stashed changes
 }
 
 body {
@@ -36,19 +28,10 @@ h1 {
 }
 
 .header {
-<<<<<<< Updated upstream
-    padding: 2rem 0px;
-    background-color: var(--dark);
-    color:var(--light);
-    align-items: center;
-    margin-top: 2rem;  
-    margin-right: 2rem
-=======
   padding: 20px 0px;
   background-color: var(--dark);
   color:var(--bgcolor);
   margin: 20px
->>>>>>> Stashed changes
 }
 header{
   background-color: var(--dark);

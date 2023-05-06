@@ -64,3 +64,16 @@ GitHub DocsGitHub Docs
 GitHub flow - GitHub Docs
 Follow GitHub flow to collaborate on projects. (7 kB)
 https://docs.github.com/en/get-started/quickstart/github-flow
+
+
+<!-- https://unsplash.com/s/photos/portfolio
+https://unsplash.com/photos/zwsHjakE_iI
+https://blog.flipsnack.com/how-to-make-a-good-digital-photo-album/
+https://gistbok.ucgis.org/bok-topics/location-based-services
+
+https://discuss.appium.io/t/how-to-click-by-image-in-mobile-app-by-appium/27664
+https://www.amazon.com/Hysoon-Biometric-Fingerprint-Employees-Business/dp/B0B1CYFNK6/ref=sr_1_18?keywords=Punch%2BTime%2BClock%2BMachine&qid=1683343263&sr=8-18&th=1 
+https://www.educba.com/automation-testing/
+https://www.dreamstime.com/photos-images/software-testing.html
+https://www.pexels.com/search/cool%20wallpaper/
+-->

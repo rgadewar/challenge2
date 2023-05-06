@@ -14,7 +14,7 @@ In this section, I have applied all the concepts of HTML and CSS, particularly f
 
 ![alt](assets/images/Website.png)
 ## Mobile Website Preview
-![alt](assets/images/mobileWebsite.png)
+![alt](assets/images/mobileWebsite.PNG)
 
 ## Installation
 N/A

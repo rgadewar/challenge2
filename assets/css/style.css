@@ -8,19 +8,11 @@
 }
 
 * {
-<<<<<<< Updated upstream
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-size: 2.55px;
-    font-family: Serriff;
-=======
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
+  margin: 1px;
   font-size: 25px;
   font-family: Serriff;
->>>>>>> Stashed changes
 }
 
 body {
@@ -79,7 +71,7 @@ p {
 }
 
 .logo {
-  height: 300px;
+  height: 350px;
   width: 100%;
   margin-bottom: 25px;
   background-image: url("../images/logo11.jpg");
@@ -91,7 +83,7 @@ p {
   width: 80%;
   margin-left: 5%;
   display: grid; 
-  grid-template-columns: 0.1fr 1fr; 
+  grid-template-columns: 0.075fr 1fr; 
   row-gap: 10px; 
 }
 

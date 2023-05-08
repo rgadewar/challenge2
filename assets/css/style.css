@@ -2,9 +2,7 @@
   /* declare a variable with `--` syntax */
   --dark: #13293d;
   --bgcolor: lightgray;
-  /* --bgcolor: #808080b0; */
   --text_color: rgb(143, 227, 227)
-  /* --navlink-color: #b9c6ae; */
 }
 
 * {
@@ -23,33 +21,28 @@ body {
 }
 
 h1 {
-  /* 4rem = 40px (4 * 10px) */
-  font-size: 4rem;
+  font-size: 40px;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 5px 0px; */
   background-color: var(--dark);
   color:var(--bgcolor);
-  /* height: 200px; */
   padding: 5px 5px;
 }
-/* header{
-  background-color: var(--dark);
-} */
 
 header h1 {
   display: inline-block;
   font-size: 48px;
   color:var(--text_color);
-  /* background: rgb(143, 227, 227); */
 }
 
 .portflio-image {
   display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 header section {
@@ -117,8 +110,6 @@ justify-content: space-around;
 /* }   */ 
 
 img {
-  /* width: 100%;
-  height:100%; */
   background-color: #fff;
   width: 100%;
   padding: 5px;

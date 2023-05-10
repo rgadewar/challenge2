@@ -8,8 +8,8 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: .25px;
-  font-size: 25px;
+  margin: .50px;
+  font-size: 20px;
   font-family: Serriff;
 }
 
@@ -22,10 +22,6 @@ body {
   font-family: Arial;
 }
 
-h1 {
-  font-size: 40px;
-}
-
 header {
   display: flex;
    /* Defines how to distribute the empty space between child elements */
@@ -34,13 +30,20 @@ header {
   background-color: var(--dark);
   color:var(--bgcolor);
   padding: 5px 5px;
-  /* display: inline-block; */
 }
 
-header h1 {
+h1 {
   display: inline-block;
-  font-size: 48px;
+  font-size: 1.25rem;
   color:var(--text_color);
+}
+
+h2{
+  font-size: 1.00rem;
+}
+
+h3{
+  font-size: .75rem;
 }
 
 header section {
@@ -66,14 +69,13 @@ a {
 }
 
 p {
-  font-size: 20px;
   justify-content: left;
 }
 
 .logo {
   height: 350px;
   width: 100%;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
   background-image: url("../images/logo11.jpg");
   background-size: cover;
   background-position: center;
@@ -149,7 +151,7 @@ img {
   /* float: left;  */
   list-style-type: none;
   display: flex;
-  display: inline-block;
+  display: inline;
   justify-content: space-between;  
 }
 

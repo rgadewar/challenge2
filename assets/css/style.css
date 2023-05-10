@@ -152,7 +152,7 @@ img {
   /* float: left;  */
   list-style-type: none;
   display: flex;
-  display: inline;
+  display: inline-block;
   justify-content: space-between;  
 }
 

@@ -228,29 +228,4 @@ footer {
   .grid-container-element { 
     grid-template-columns: 1fr;
   }
-  .contactlinks{
-    display: flex;
-    display: inline-block;
-    flex-direction: row;
-    justify-content: center;
-    margin-left: 20px;
-  } 
-  .container li {
-    margin-right: 20px;
-    list-style-type: none;
-    font-size: 2.75rem;
-    line-height: 1.5;
-  } 
-
-
-  .float-child-right{
-    width: 100%;
-    /* height: 70%; */
-    border-top-style: none;
-    border-bottom-style: none;
-    border-right-style: none; 
-    border-left-style: none; 
-    padding-left: 20px;
-    
-  }
    }

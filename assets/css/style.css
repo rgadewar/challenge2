@@ -94,7 +94,7 @@ a {
   width: 80%;
   margin-left: 5%;
   display: grid; 
-  grid-template-columns: 0.030fr 1fr; 
+  grid-template-columns: 0.020fr 1fr; 
   row-gap: 10px; 
   height: 30%;
   margin-bottom: 0.5%;

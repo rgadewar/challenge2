@@ -8,6 +8,7 @@ In this section, I have applied all the concepts of HTML and CSS, particularly f
     - [Git Cheat Sheet](#git-cheat-sheet-pdf)
     - [Git Flow Process](#git-flow-process)
     - [HTML Reference](#html-reference)
+    - [ITH PNG Reference](#ITH PNG Reference)
 - [How To Contribute](#how-to-contribute)
 ## Website Preview
 [Horiseon Website Link](https://rgadewar.github.io/challenge2/)
@@ -27,6 +28,8 @@ N/A
 [![name](assets/images/github-flow.PNG)](https://docs.github.com/en/get-started/quickstart/github-flow)
 ### HTML Reference
 [![name](assets/images/htmlref.png)](https://www.w3schools.com/tags/tag_meta.asp)
+### ITH PNG Reference
+[![name](assets/images/ith.png)](https://intouchhealth.com/)
 
 ## Thank you all
 Everyone helped in this first challenge. Study group also helped in this process. Thank you to everyone.

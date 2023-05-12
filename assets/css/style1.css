@@ -75,6 +75,13 @@ a {
   text-decoration: none;
 }
 
+header a:hover {
+  color: #fff;
+}
+.contactlinks a:hover {
+  color: #fff;
+}
+
 .logo {
   height: 400px;
   width: 100%;

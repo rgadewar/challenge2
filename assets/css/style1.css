@@ -249,3 +249,17 @@ footer {
     line-height: 1.0;
     text-shadow: 0 0 1px teal; 
   }
+  .display-inline portflio-image img:hover pseudo-class{
+
+  }
+
+  /* Hide the resource links by default */
+header img {
+  display: none;
+  padding: 1% 0;
+}
+
+/* Display the links when the parent is in a hover state */
+header:hover img{
+  display: block;
+}

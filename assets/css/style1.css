@@ -6,10 +6,8 @@
 }
 
 * {
-  /* box-sizing: border-box; */
   padding: 0;
   margin: .50px;
-  /* font-size: 30px; */
   font-family: Serriff;
 }
 
@@ -77,10 +75,6 @@ a {
   text-decoration: none;
 }
 
-/* p {
-  justify-content: normal;
-} */
-
 .logo {
   height: 400px;
   width: 100%;
@@ -116,12 +110,6 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;
 }
-
-/* section {
-  flex: 0 0 100%; */
-  /* background-color:var(--bgcolor); */
-  /* padding: 20px; */
-/* }    */
 
 img {
   background-color: #fff;
@@ -250,4 +238,7 @@ footer {
 
    .text-center {
     text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.0;
+    text-shadow: 0 0 1px teal; 
   }
